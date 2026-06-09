@@ -10,7 +10,7 @@ interface CardProdutoProps {
   id: string | number;
   title: string;
   description: string;
-  price: number;
+  price: string | number;
   imageSrc: string;
   destaque?: boolean;
 }
