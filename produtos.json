@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "title": "Ração Premium para Cães",
+    "description": "Ração Estimação sabor salmão 500g",
+    "price": 44.99,
+    "imageSrc": "/produtos/racao-premium-caes.png",
+    "destaque": false
+  },
+  {
+    "id": 2,
+    "title": "Arranhador para Gatos",
+    "description": "Arranhador de sisal em torre com brinquedo na ponta",
+    "price": 89.90,
+    "imageSrc": "/produtos/arranhador-gatoss.png",
+    "destaque": true
+  },
+  {
+    "id": 3,
+    "title": "Petisco Snack para Cães",
+    "description": "Petisco sabor carne premium para adestramento 150g",
+    "price": 12.50,
+    "imageSrc": "/produtos/petisco-snack-caes.png",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "title": "Shampoo Neutro para Pets",
+    "description": "Shampoo hipoalergênico para cães e gatos 500ml",
+    "price": 29.99,
+    "imageSrc": "/produtos/shampoo-neutroo-pets.png",
+    "destaque": true
+  },
+  {
+    "id": 5,
+    "title": "Brinquedo Mordedor Osso",
+    "description": "Mordedor de borracha maciça para cães porte médio",
+    "price": 22.00,
+    "imageSrc": "/produtos/brinquedo-mordedor-osso.png",
+    "destaque": false
+  },
+  {
+    "id": 6,
+    "title": "Areia Sanitária para Gatos",
+    "description": "Areia higiênica biodegradável com controle de odor 4kg",
+    "price": 35.40,
+    "imageSrc": "/produtos/areia-sanitaria-gatos.png",
+    "destaque": true
+  },
+  {
+    "id": 7,
+    "title": "Cama Nuvem para Pets",
+    "description": "Cama ultra macia lavável tamanho G cor cinza",
+    "price": 119.90,
+    "imageSrc": "/produtos/cama-nuvem-pets.png",
+    "destaque": true
+  },
+  {
+    "id": 8,
+    "title": "Coleira Peitoral Ergonômica",
+    "description": "Coleira ajustável com guia de 1.2m para cães",
+    "price": 54.90,
+    "imageSrc": "/produtos/coleira-peitoral-ergonomica.png",
+    "destaque": false
+  },
+  {
+    "id": 9,
+    "title": "Comedouro de Inox Anti-derrapante",
+    "description": "Comedouro resistente com base de borracha 450ml",
+    "price": 27.80,
+    "imageSrc": "/produtos/comedouro-inox.png",
+    "destaque": false
+  },
+  {
+    "id": 10,
+    "title": "Ração para Gatos Castrados",
+    "description": "Ração especial para controle de peso sabor frango 1kg",
+    "price": 59.90,
+    "imageSrc": "/produtos/racao-gatos-castrados.png",
+    "destaque": true
+  },
+  {
+    "id": 11,
+    "title": "Sachê de Carne ao Molho",
+    "description": "Alimento úmido para gatos adultos 85g",
+    "price": 4.50,
+    "imageSrc": "/produtos/sache-carne-molho.png",
+    "destaque": false
+  },
+  {
+    "id": 12,
+    "title": "Brinquedo Varina com Penas",
+    "description": "Brinquedo interativo para gatos com guizo",
+    "price": 15.90,
+    "imageSrc": "/produtos/brinquedo-varinha-penas.png",
+    "destaque": false
+  },
+  {
+    "id": 13,
+    "title": "Caixa de Transporte N1",
+    "description": "Caixa de transporte segura para cães pequenos e gatos",
+    "price": 74.99,
+    "imageSrc": "/produtos/caixa-transporte-n1.png",
+    "destaque": true
+  },
+  {
+    "id": 14,
+    "title": "Eliminador de Odores Enzimático",
+    "description": "Spray para limpeza de superfícies com urina pet 1L",
+    "price": 32.90,
+    "imageSrc": "/produtos/eliminador-odores-enzimatico.png",
+    "destaque": false
+  },
+  {
+    "id": 15,
+    "title": "Tapete Higiênico Slim",
+    "description": "Tapete de alta absorção para cães - 30 unidades",
+    "price": 62.00,
+    "imageSrc": "/produtos/tapete-higienico-slim.png",
+    "destaque": true
+  },
+  {
+    "id": 16,
+    "title": "Ração para Filhotes",
+    "description": "Ração desenvolvimento saudável para cães filhotes 1kg",
+    "price": 52.40,
+    "imageSrc": "/produtos/racao-filhotes.png",
+    "destaque": false
+  },
+  {
+    "id": 17,
+    "title": "Escova Furminator de Rasqueadeira",
+    "description": "Escova para remoção de pelos mortos de cães e gatos",
+    "price": 45.00,
+    "imageSrc": "/produtos/escova-furminator-rasqueadeira.png",
+    "destaque": false
+  },
+  {
+    "id": 18,
+    "title": "Biscoito Integral para Cães",
+    "description": "Snack assado e saudável sabor maçã e canela 250g",
+    "price": 18.90,
+    "imageSrc": "/produtos/biscoito-integral-caes.png",
+    "destaque": false
+  },
+  {
+    "id": 19,
+    "title": "Bebedouro Fonte Elétrica",
+    "description": "Fonte de água corrente com filtro de carvão ativado 2L",
+    "price": 109.90,
+    "imageSrc": "/produtos/bebedouro-fonte-eletrica.png",
+    "destaque": true
+  },
+  {
+    "id": 20,
+    "title": "Catnip Erva do Gato",
+    "description": "Desidratado natural para estimular brinquedos 10g",
+    "price": 9.90,
+    "imageSrc": "/produtos/catnip-erva-gato.png",
+    "destaque": false
+  },
+  {
+    "id": 21,
+    "title": "Antipulgas e Carrapatos Pipeta",
+    "description": "Proteção mensal para cães de 10kg a 20kg",
+    "price": 49.90,
+    "imageSrc": "/produtos/antipulgas-carrapatos-pipeta.png",
+    "destaque": true
+  },
+  {
+    "id": 22,
+    "title": "Condicionador Brilho Intenso",
+    "description": "Condicionador para pelagens longas de pets 500ml",
+    "price": 26.50,
+    "imageSrc": "/produtos/condicionador-brilho-intenso.png",
+    "destaque": false
+  },
+  {
+    "id": 23,
+    "title": "Cortador de Unha Tipo Alicate",
+    "description": "Cortador com trava de segurança para cães e gatos",
+    "price": 19.90,
+    "imageSrc": "/produtos/cortador-unha-alicate.png",
+    "destaque": false
+  },
+  {
+    "id": 24,
+    "title": "Suplemento Ômega 3",
+    "description": "Suplemento vitamínico para pele e pelo 60 cápsulas",
+    "price": 68.00,
+    "imageSrc": "/produtos/suplemento-omega-3.png",
+    "destaque": false
+  },
+  {
+    "id": 25,
+    "title": "Ração para Pássaros Calopsita",
+    "description": "Mix de sementes e extrusados selecionados 500g",
+    "price": 14.90,
+    "imageSrc": "/produtos/racao-passaros-calopsita.png",
+    "destaque": false
+  },
+  {
+    "id": 26,
+    "title": "Gaiola Confort para Hamster",
+    "description": "Gaiola completa com rodinha, tubos e comedouro",
+    "price": "135,00",
+    "imageSrc": "/produtos/gaiola-confort-hamster.png",
+    "destaque": true
+  },
+  {
+    "id": 27,
+    "title": "Ração Extrusada para Jabuti",
+    "description": "Alimento completo com vitamins e minerais 300g",
+    "price": "38,90",
+    "imageSrc": "/produtos/racao-extrusada-jabuti.png",
+    "destaque": false
+  },
+  {
+    "id": 28,
+    "title": "Flocos de Alimento para Peixes",
+    "description": "Ração para peixes tropicais de aquário 50g",
+    "price": "16,20",
+    "imageSrc": "/produtos/flocos-alimento-peixes.png",
+    "destaque": false
+  },
+  {
+    "id": 29,
+    "title": "Condicionador de Água Anticloro",
+    "description": "Tratamento rápido para água de aquários 100ml",
+    "price": "22,40",
+    "imageSrc": "/produtos/condicionador-agua-anticloro.png",
+    "destaque": false
+  },
+  {
+    "id": 30,
+    "title": "Banheira Plástica para Pássaros",
+    "description": "Banheira adaptável para fixação em gaiolas",
+    "price": "11,50",
+    "imageSrc": "/produtos/banheira-plastica-passaros.png",
+    "destaque": false
+  },
+  {
+    "id": 31,
+    "title": "Ração Coelhos e Minicoelhos",
+    "description": "Alimento com alta fibra e alfafa prensada 1kg",
+    "price": "19,90",
+    "imageSrc": "/produtos/racao-coelhos-minicoelhos.png",
+    "destaque": false
+  },
+  {
+    "id": 32,
+    "title": "Guia Retrátil Automática",
+    "description": "Guia de fita com 5 metros para cães até 15kg",
+    "price": "48,90",
+    "imageSrc": "/produtos/guia-retratil-automatica.png",
+    "destaque": true
+  },
+  {
+    "id": 33,
+    "title": "Brinquedo Bola de Tênis com Corda",
+    "description": "Brinquedo de cabo de guerra para cães ativos",
+    "price": "24,90",
+    "imageSrc": "/produtos/brinquedo-bola-tenis-corda.png",
+    "destaque": false
+  },
+  {
+    "id": 34,
+    "title": "Litter Box Caixa de Areia",
+    "description": "Bandeja higiênica com borda alta anti-vazamento",
+    "price": "39,90",
+    "imageSrc": "/produtos/litter-box-caixa-areia.png",
+    "destaque": false
+  },
+  {
+    "id": 35,
+    "title": "Pá Transada para Areia",
+    "description": "Pá vazada para limpeza de banheiras de gatos",
+    "price": "7,50",
+    "imageSrc": "/produtos/pa-areia.png",
+    "destaque": false
+  },
+  {
+    "id": 36,
+    "title": "Coleira Seresto Antipulgas",
+    "description": "Coleira de longa duração contra pulgas e carrapatos",
+    "price": "219,00",
+    "imageSrc": "/produtos/coleira-seresto-antipulgas.png",
+    "destaque": true
+  },
+  {
+    "id": 37,
+    "title": "Gel Dental Sabor Menta",
+    "description": "Pasta de dente para escovação veterinária 60g",
+    "price": "18,40",
+    "imageSrc": "/produtos/gel-dental-menta.png",
+    "destaque": false
+  },
+  {
+    "id": 38,
+    "title": "Escova de Dente Dupla",
+    "description": "Escova com duas cerdas angulares para cães",
+    "price": "11,90",
+    "imageSrc": "/produtos/escova-dente-dupla.png",
+    "destaque": false
+  },
+  {
+    "id": 39,
+    "title": "Snack Palito de Nó",
+    "description": "Palitos mastigáveis de couro bovino para cães 500g",
+    "price": "34,90",
+    "imageSrc": "/produtos/snack-palito-no.png",
+    "destaque": false
+  },
+  {
+    "id": 40,
+    "title": "Perfume Pet Macho",
+    "description": "Fragrância suave de longa duração para cães 120ml",
+    "price": "21,00",
+    "imageSrc": "/produtos/perfume-pet-macho.png",
+    "destaque": false
+  },
+  {
+    "id": 41,
+    "title": "Perfume Pet Fêmea",
+    "description": "Fragrância floral adocicada para pets 120ml",
+    "price": "21,00",
+    "imageSrc": "/produtos/perfume-pet-femea.png",
+    "destaque": false
+  },
+  {
+    "id": 42,
+    "title": "Lenço Umedecido Antisséptico",
+    "description": "Lenços para limpeza de patas e focinho - 50 flas",
+    "price": "15,99",
+    "imageSrc": "/produtos/lenco-umedecido-antisseptico.png",
+    "destaque": false
+  },
+  {
+    "id": 43,
+    "title": "Comedouro Lento Funcional",
+    "description": "Comedouro com labirinto para evitar engasgos",
+    "price": "32,90",
+    "imageSrc": "/produtos/comedouro-lento-funcional.png",
+    "destaque": true
+  },
+  {
+    "id": 44,
+    "title": "Tapete Gelado Refrescante",
+    "description": "Tapete auto-resfriável para dias quentes 50x40cm",
+    "price": "89,90",
+    "imageSrc": "/produtos/tapete-gelado-refrescante.png",
+    "destaque": true
+  },
+  {
+    "id": 45,
+    "title": "Roupão Pós-Banho Microfibra",
+    "description": "Roupão de alta absorção tamanho M cor azul",
+    "price": "44,50",
+    "imageSrc": "/produtos/roupao-pos-banho.png",
+    "destaque": false
+  },
+  {
+    "id": 46,
+    "title": "Sachê Cão Adulto Frango",
+    "description": "Alimento úmido pedaços ao molho sabor frango 100g",
+    "price": "4,90",
+    "imageSrc": "/produtos/sache-cao-adulto-frango.png",
+    "destaque": false
+  },
+  {
+    "id": 47,
+    "title": "Educador Sanitário Pode/Não Pode",
+    "description": "Kit com dois sprays auxiliares de adestramento",
+    "price": "37,80",
+    "imageSrc": "/produtos/educador-sanitario.png",
+    "destaque": false
+  },
+  {
+    "id": 48,
+    "title": "Graminha para Gatos Jardim",
+    "description": "Pote com sementes de trigo e aveia para brotar",
+    "price": "12,90",
+    "imageSrc": "/produtos/graminha-gatos-jardim.png",
+    "destaque": false
+  },
+  {
+    "id": 49,
+    "title": "Filtro Interno para Aquários",
+    "description": "Filtro mecânico e biológico compacto 200L/h",
+    "price": "64,90",
+    "imageSrc": "/produtos/filtro-interno-aquarios.png",
+    "destaque": true
+  },
+  {
+    "id": 50,
+    "title": "Luz Noturna de LED Aquário",
+    "description": "Luminária submersível LED azul e branca 20cm",
+    "price": "49,99",
+    "imageSrc": "/produtos/luz-noturna-led-aquario.png",
+    "destaque": false
+  }
+]
