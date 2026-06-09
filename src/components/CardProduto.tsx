@@ -27,7 +27,7 @@ export default function CardProduto({
   const formattedPrice = new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",
-  }).format(price);
+  }).format(Number(price));
 
   return (
     <Card className="relative w-80 flex flex-col overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
