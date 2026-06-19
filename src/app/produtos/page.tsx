@@ -3,7 +3,7 @@ import produtos from "../../../produtos.json"
 
 export default function Produtos() {
   return (
-    <div className="w-full min-h-screen bg-[#FDF9F7] pb-24">
+    <div className="w-full min-h-screen bg-[#fdf6ed] pb-24">
       <div className="text-center py-20 px-4">
         <h1 className="text-5xl md:text-6xl text-[#B89B67] font-light tracking-wide">
           Produtos ELO

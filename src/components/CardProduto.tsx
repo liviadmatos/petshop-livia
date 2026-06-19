@@ -1,18 +1,16 @@
+
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import {
-  Card,
-  CardDescription,
-} from "@/components/ui/card"
+import { Card, CardDescription } from "@/components/ui/card"
 import Image from "next/image"
 
 interface CardProdutoProps {
-  id: string | number;
-  title: string;
-  description: string;
-  price: string | number;
-  imageSrc: string;
-  destaque?: boolean;
+  id: string | number
+  title: string
+  description: string
+  price: string | number
+  imageSrc: string
+  destaque?: boolean
 }
 
 export default function CardProduto({
@@ -20,49 +18,50 @@ export default function CardProduto({
   description,
   price,
   imageSrc,
-  id,
   destaque
 }: CardProdutoProps) {
 
   const formattedPrice = new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",
-  }).format(Number(price));
+  }).format(Number(price))
 
   return (
-    <Card className="relative w-80 flex flex-col overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-      {/* Selo de destaque */}
+    <Card className="group relative w-80 overflow-hidden rounded-3xl bg-[#fffaf5] border-none shadow-[0_4px_20px_rgba(0,0,0,0.06)] hover:shadow-[0_10px_30px_rgba(0,0,0,0.10)] transition-all duration-300 hover:-translate-y-1">
+
+      {/* Destaque */}
       {destaque && (
-        <Badge variant="secondary" className="absolute top-3 right-3 z-30">
+        <Badge className="absolute top-5 right-5 z-30 bg-amber-400 hover:bg-amber-400 text-white rounded-full px-4 py-1.5 text-xs font-semibold border-0 shadow-sm">
           Destaque
         </Badge>
       )}
 
-      {/* Container de imagem - aspecto quadrado */}
-      <div className="relative w-full aspect-square bg-slate-50 flex items-center justify-center overflow-hidden">
+      {/* Imagem */}
+      <div className="relative h-72 w-full flex items-center justify-center px-6 pt-8">
+
         <Image
           src={imageSrc}
           alt={title}
           fill
-          className="object-contain p-3"
+          className="object-contain p-6 group-hover:scale-105 transition-transform duration-300"
           sizes="(max-width: 768px) 100vw, 280px"
         />
       </div>
 
-      {/* Conteúdo - flex-1 para ocupar espaço disponível */}
-      <div className="flex-1 flex flex-col p-4 justify-between">
-        <div>
-          <h3 className="text-base font-semibold text-slate-800 line-clamp-2 font-sans">
-            {title}
-          </h3>
-          <CardDescription className="text-xs text-slate-500 mt-1 line-clamp-2">
-            {description}
-          </CardDescription>
-        </div>
+      {/* Conteúdo */}
+      <div className="px-6 pb-6 pt-2">
 
-        {/* Preço e botão */}
-        <div className="mt-4 pt-3 border-t border-slate-100">
-          <Button className="w-full text-sm font-medium">
+        <h3 className="text-2xl font-bold text-stone-800 leading-tight line-clamp-2">
+          {title}
+        </h3>
+
+        <CardDescription className="mt-3 text-[15px] text-stone-500 leading-relaxed line-clamp-2">
+          {description}
+        </CardDescription>
+
+        {/* preço */}
+        <div className="mt-6">
+          <Button className="w-full h-14 rounded-2xl bg-amber-400 hover:bg-amber-500 text-white text-xl font-bold shadow-none">
             {formattedPrice}
           </Button>
         </div>
@@ -70,3 +69,4 @@ export default function CardProduto({
     </Card>
   )
 }
+

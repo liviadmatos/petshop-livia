@@ -6,7 +6,7 @@
 @import "shadcn/tailwind.css";
 
 :root {
-    --background: hsl(38 42% 96%);
+    --background: #fdf6ed;
     --foreground: hsl(215 18% 18%);
     --card: hsl(0 0% 100%);
     --card-foreground: hsl(215 18% 18%);
