@@ -1,4 +1,4 @@
-/* globals.css - Adicione estas fontes no início do arquivo */
+/* globals.css */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Fredoka+One&display=swap');
 
 @import "tailwindcss";
@@ -7,71 +7,71 @@
 
 :root {
     --background: #fdf6ed;
-    --foreground: hsl(215 18% 18%);
-    --card: hsl(0 0% 100%);
-    --card-foreground: hsl(215 18% 18%);
-    --popover: hsl(0 0% 100%);
-    --popover-foreground: hsl(215 18% 18%);
-    --primary: #56403a;
-    --primary-foreground: hsl(0 0% 100%);
-    --secondary: #F59E0B;
-    --secondary-foreground: hsl(0 0% 100%);
-    --muted: hsl(36 35% 94%);
-    --muted-foreground: hsl(213 9% 40%);
-    --accent: #10B981;
-    --accent-foreground: hsl(0 0% 100%);
-    --destructive: hsl(353 76% 61%);
-    --border: hsl(214 18% 84%);
-    --input: hsl(210 18% 96%);
-    --ring: #F59E0B;
-    --chart-1: hsl(211 23% 80%);
-    --chart-2: hsl(209 18% 62%);
-    --chart-3: hsl(206 17% 50%);
-    --chart-4: hsl(203 16% 42%);
-    --chart-5: hsl(198 14% 36%);
-    --radius: 0.75rem;
-    --sidebar: hsl(38 42% 96%);
-    --sidebar-foreground: hsl(215 18% 18%);
-    --sidebar-primary: #56403a;
-    --sidebar-primary-foreground: hsl(0 0% 100%);
-    --sidebar-accent: #F59E0B;
-    --sidebar-accent-foreground: hsl(0 0% 100%);
-    --sidebar-border: hsl(214 18% 84%);
-    --sidebar-ring: #F59E0B;
+    --foreground: #4a3a35;
+    --card: #ffffff;
+    --card-foreground: #4a3a35;
+    --popover: #ffffff;
+    --popover-foreground: #4a3a35;
+    --primary: #8B6B5D;
+    --primary-foreground: #ffffff;
+    --secondary: #D4A373;
+    --secondary-foreground: #ffffff;
+    --muted: #f5ede8;
+    --muted-foreground: #8a7a75;
+    --accent: #E8C9A0;
+    --accent-foreground: #4a3a35;
+    --destructive: #e07c7c;
+    --border: #f0e6e0;
+    --input: #faf5f0;
+    --ring: #D4A373;
+    --chart-1: #d4b8a8;
+    --chart-2: #c4a898;
+    --chart-3: #b49888;
+    --chart-4: #a48878;
+    --chart-5: #947868;
+    --radius: 1rem;
+    --sidebar: #faf3ed;
+    --sidebar-foreground: #4a3a35;
+    --sidebar-primary: #8B6B5D;
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #D4A373;
+    --sidebar-accent-foreground: #4a3a35;
+    --sidebar-border: #f0e6e0;
+    --sidebar-ring: #D4A373;
 }
 
 .dark {
-    --background: hsl(217 19% 13%);
-    --foreground: hsl(0 0% 96%);
-    --card: hsl(216 18% 16%);
-    --card-foreground: hsl(0 0% 96%);
-    --popover: hsl(216 18% 16%);
-    --popover-foreground: hsl(0 0% 96%);
-    --primary: #56403a;
-    --primary-foreground: hsl(0 0% 100%);
-    --secondary: #F59E0B;
-    --secondary-foreground: hsl(0 0% 100%);
-    --muted: hsl(216 18% 22%);
-    --muted-foreground: hsl(210 10% 72%);
-    --accent: #10B981;
-    --accent-foreground: hsl(0 0% 100%);
-    --destructive: hsl(353 76% 61%);
-    --border: hsl(214 18% 20%);
-    --input: hsl(216 18% 14%);
-    --ring: #F59E0B;
-    --chart-1: hsl(211 23% 80%);
-    --chart-2: hsl(209 18% 62%);
-    --chart-3: hsl(206 17% 50%);
-    --chart-4: hsl(203 16% 42%);
-    --chart-5: hsl(198 14% 36%);
-    --sidebar: hsl(216 18% 16%);
-    --sidebar-foreground: hsl(0 0% 96%);
-    --sidebar-primary: #56403a;
-    --sidebar-primary-foreground: hsl(0 0% 100%);
-    --sidebar-accent: #F59E0B;
-    --sidebar-accent-foreground: hsl(0 0% 100%);
-    --sidebar-border: hsl(214 18% 20%);
-    --sidebar-ring: #F59E0B;
+    --background: #2d2420;
+    --foreground: #f0e6e0;
+    --card: #3d322d;
+    --card-foreground: #f0e6e0;
+    --popover: #3d322d;
+    --popover-foreground: #f0e6e0;
+    --primary: #8B6B5D;
+    --primary-foreground: #ffffff;
+    --secondary: #D4A373;
+    --secondary-foreground: #ffffff;
+    --muted: #4a3a35;
+    --muted-foreground: #b8a8a0;
+    --accent: #5d4a40;
+    --accent-foreground: #f0e6e0;
+    --destructive: #e07c7c;
+    --border: #4a3a35;
+    --input: #3d322d;
+    --ring: #D4A373;
+    --chart-1: #d4b8a8;
+    --chart-2: #c4a898;
+    --chart-3: #b49888;
+    --chart-4: #a48878;
+    --chart-5: #947868;
+    --sidebar: #3d322d;
+    --sidebar-foreground: #f0e6e0;
+    --sidebar-primary: #8B6B5D;
+    --sidebar-primary-foreground: #ffffff;
+    --sidebar-accent: #D4A373;
+    --sidebar-accent-foreground: #f0e6e0;
+    --sidebar-border: #4a3a35;
+    --sidebar-ring: #D4A373;
 }
 
 @layer base {
@@ -90,27 +90,47 @@
     color: hsl(var(--foreground));
     -webkit-font-smoothing: antialiased;
     font-family: 'Quicksand', system-ui, -apple-system, sans-serif;
-    line-height: 1.6;
+    line-height: 1.7;
     min-height: 100vh;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'Fredoka One', cursive;
-    color: hsl(var(--foreground));
-    font-weight: 700;
-    letter-spacing: -0.02em;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
   }
 
-  p,
-  a,
-  li,
-  span {
+  p, a, li, span {
     font-family: 'Quicksand', system-ui, -apple-system, sans-serif;
     color: hsl(var(--foreground));
+  }
+
+  /* Estilos mais suaves para inputs */
+  input, textarea, select {
+    @apply transition-all duration-200;
+  }
+
+  input:focus, textarea:focus, select:focus {
+    @apply ring-2 ring-secondary/30 ring-offset-2 ring-offset-transparent;
+  }
+
+  /* Scrollbar personalizada */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--muted);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--secondary);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
   }
 }
